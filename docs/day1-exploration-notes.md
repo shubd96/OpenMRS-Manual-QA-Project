@@ -1,5 +1,5 @@
 # Day 1: Manual Testing Exploration of OpenMRS
-## Modules Explored
+## Modules to be Explored
 - Login (Registration Desk)
 - Patient Registration
 - Find Patient Record
