@@ -41,10 +41,17 @@
 
 ### Form Submission Behavior
 - After clicking the **Submit** button, a message appears: **"Patient record created."**
-- - To verify the newly created patient record:
+  - To verify the newly created patient record:
   - Navigate to the **Find Patient Record** section.
   - Type the name of the registered patient in the search bar.
   - The patient's details appear in the search results, confirming successful creation.
+ 
+ ### Note on Name Field
+- Given and Family Name fields accept numbers and special characters.
+- System allows submission with those values.
+- No clear requirements available, so not marking it as a bug yet.
+- Will confirm with dev/client if needed later.
+
 
 
 
