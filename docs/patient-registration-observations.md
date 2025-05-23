@@ -1,4 +1,4 @@
-# Patient registration obesrvations(Day 3)
+# Patient registration observations(Day 3)
 ##Fields Explored
 1. Name
 2. Gender
@@ -39,9 +39,8 @@
 - The previously entered details remain intact; the form is not reset.
 
 ### Form Submission Behavior
-
 - After clicking the **Submit** button, a message appears: **"Patient record created."**
-- To verify the newly created patient record:
+- - To verify the newly created patient record:
   - Navigate to the **Find Patient Record** section.
   - Type the name of the registered patient in the search bar.
   - The patient's details appear in the search results, confirming successful creation.
