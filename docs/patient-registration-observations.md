@@ -12,6 +12,7 @@
 -  User cannot proceed with further registration steps unless the name section is complete.
 -  There is an option of unidentified patient where user can proceed without specifying a name.
 -  When the Unidentified Patient checkbox is selected, the entire name section becomes disabled.
+-  When a similar patient already exists with the same Given and Family Name, a message appears: "A similar patient already exists."
 
 #### Gender
 - This field appears only after the name section is completed.
