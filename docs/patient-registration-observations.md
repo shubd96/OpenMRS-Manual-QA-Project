@@ -21,6 +21,7 @@
 - This field appears only after the name section is completed.
 - It displays a drop down menu with two options: Male or Female.
 - The user can select only one option.
+- Drop down is not keyboard accessible. Options can not be selected using the tab button on keyboard.
 - The user cannot proceed to next step of registration without selecting the gender.
 
 #### Birthdate
