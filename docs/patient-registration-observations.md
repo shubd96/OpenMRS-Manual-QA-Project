@@ -30,7 +30,7 @@
 - There is no specific sequence required ; all the fields are enabled independently.
 - The Day field accepts values between 1 and 31 only; values outside this range are not accepted.
 - Both the Day and Year fields does not accept alphabets and special characters as input.
-- If alphabets and special characters are entered, an error message appears**Must be a number**.
+- If alphabets and special characters are entered, an error message appears **Must be a number**.
 - The Year field accepts values from 1905 to 2025 only.
 - There are options for Estimated Years and Estimated Months in case the exact birthdate is unknown.
 - The Estimated Years field accepts values from 0 to 120 only..
