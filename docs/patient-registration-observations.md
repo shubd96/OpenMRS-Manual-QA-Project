@@ -37,6 +37,7 @@
 - Both the Estimated Years and Estimated Month fields do not accept alphabets and special characters as input, and display the message: **Must be a number**.
 - The Estimated Months field accepts values from 0 to 11 only.
 - If any value is entered in the Estimated Years or Estimated Months fields, the Day, Month, and Year fields are not disabled, but any input provided in them gets automatically cleared or disappears.
+- If all the values are entered in Day, Month and Year, then the Estimated Months and Estimated Years field is automatically disabled.
 
 #### Address
 - User cannot proceed with registration unless there is value for atleast one field.
