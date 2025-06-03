@@ -12,3 +12,12 @@ https://o2.openmrs.org/openmrs/login.htm
 - Username: Admin
 - Password: Admin123
 
+## Completed Modules
+- **Login Module**
+  - Test cases written and verified
+- **Patient Registration Module**
+  -  Test cases written and verified for :
+  - Name field
+  - Gender field
+  - Birthdate field
+
