@@ -40,10 +40,10 @@
 - If all the values are entered in Day, Month and Year, then the Estimated Months and Estimated Years field is automatically disabled.
 
 #### Address
-- User cannot proceed with registration unless there is value for atleast one field.
-- The Address field is mandatory to proceed.
-- Other fields such as Address 2 ,City/Village,State/Province,Country and Postal Code are optional.
-- All the visible fields in the Address section accepts all values such as numbers and special characters.
+- None of the individual address fields (Address , Address 2, City/Village, State/Province, Country, Postal Code) is mandatory on its own.
+- However, leaving all of them blank prevents progression to the next step.
+- User needs to provide value for atleast one field.
+- All address fields accept alphanumeric values, numbers, and special characters.
 
 #### Phone Number
 - Phone Number field is **optional**. User can proceed with registration even if it is blank. 
