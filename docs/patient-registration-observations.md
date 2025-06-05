@@ -49,6 +49,7 @@
 - Phone Number field is **optional**. User can proceed with registration even if it is blank. 
 - The Phone number Field does not accept alphabets and special characters as input except ("+", "-" and "()").
 - Input is expected in a **standard phone number format** (e.g., +1-234-567-8901).
+- The field accepts more than 10 digits as input, which may allow non-standard or invalid phone numbers.
 
 #### Relatives
 - The **Relatives** section appears during the patient registration process.
