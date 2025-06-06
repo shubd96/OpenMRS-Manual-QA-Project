@@ -21,4 +21,5 @@ https://o2.openmrs.org/openmrs/login.htm
   - Gender field
   - Birthdate field
   - Address field
+  - Phone Number field
 
