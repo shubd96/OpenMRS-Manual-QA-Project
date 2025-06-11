@@ -23,4 +23,6 @@ https://o2.openmrs.org/openmrs/login.htm
   - Address field
   - Phone Number field
   - Relatives field.
+ 
+  ## Uploaded Patient Registration module Test cases.
 
