@@ -17,16 +17,16 @@ This document contains QA bug reports manually tested and tracked during my Open
 3. Try to proceed or submit the form.
 
 ### Expected Result:
-The system should reject input with special characters or numbers, showing an appropriate error message.
+Input should not be accepted as it contains special characters and numbers, which are not valid characters for name field.
 
 ### Actual Result:
-The form **accepts** the input without any validation error.
+Input is accepted without any error message by the field.
 
 ### Status:
 Fail
 
 ### Notes:
-The **Name** field should accept only alphabetic characters. Special characters and numbers must be restricted through frontend validation.
+There is no clear requirements available but in general the name field should not accept special characters and numbers as input.
 
 ---
 
@@ -43,13 +43,13 @@ The **Name** field should accept only alphabetic characters. Special characters 
 3. Try to proceed or submit the form
 
 ### Expected:
-Input should not be accepted, as it contains special characters and numbers which are not valid in the name field.
+Input should not be accepted as it contains special characters and numbers, which are not valid characters for name field.
 
 ### Actual:
-Input is accepted without any error message. No validation is triggered.
+Input is accepted without any error message by the field.
 
 ### Notes:
-There are no clear requirement documents, but as per standard form conventions, name fields should only accept alphabetic characters.
+There is no clear requirements available but in general the name field should not accept special characters and numbers as input.
 
 ---
 ## Bug ID: BUG-003 – Middle Name Field Accepts Invalid Characters
@@ -65,13 +65,13 @@ There are no clear requirement documents, but as per standard form conventions, 
 3. Try to proceed or submit the form
 
 ### Expected:
-Input should not be accepted, as it contains special characters and numbers which are not valid in the name field.
+Input should not be accepted as it contains special characters and numbers, which are not valid characters for name field.
 
 ### Actual:
-Input is accepted without any error message. No validation is triggered.
+Input is accepted without any error message from the system.
 
 ### Notes:
-There are no clear requirement documents, but as per standard form conventions, name fields should only accept alphabetic characters to ensure clean and valid data entry.
+There is no clear requirements available but in general the name field should not accept special characters and numbers as input.
 
 ---
 ## Bug ID: BUG-004 – Name Fields Do Not Auto-Capitalize
@@ -82,16 +82,16 @@ There are no clear requirement documents, but as per standard form conventions, 
 **Jira Ticket:** [OQT-4 (Private Jira)](https://shubhamdas100.atlassian.net/browse/OQT-4?atlOrigin=eyJpIjoiNzMxMWIxOTJjMzM4NGNmOTljMGNiMDVhYmI3OTc5ZTkiLCJwIjoiaiJ9)
 
 ### Steps to Reproduce:
-1. Navigate to "Register a Patient" form  
-2. Enter "john" in the Given Name field  
-3. Enter "diaz" in the Family Name field  
-4. Proceed to the next step or review the entered names
+1. Navigate to "Register a Patient" form. 
+2. Enter "john" in the Given Name field.
+3. Enter "diaz" in the Family Name field.  
+4. Proceed to the next step or review the entered names.
 
 ### Expected:
-Names should auto-capitalize as "John" and "Diaz" to follow standard usability conventions.
+Names should be auto-capitalized as “John” and “Diaz”.
 
 ### Actual:
-Names remain in lower case ("john", "diaz") with no automatic formatting or visual cues.
+Names are not auto-capitalized and remain in lower case.
 
 ### Notes:
 While there may be no formal requirement, auto-capitalization enhances user experience and data consistency, especially in medical systems.
@@ -117,5 +117,33 @@ User is not able to select any option and error message : "Required" is displaye
 
 ### Notes:
 Expected behavior based on usability standards
+
+---
+
+## Bug ID: BUG-006 – Address Fields Accept Invalid Characters
+
+**Test Case ID:** TC_005  
+**Module:** Patient Registration  
+**Field:** Address, City, State, Country, Postal Code  
+**Jira Ticket:** [OQT-6 (Private Jira)](https://shubhamdas100.atlassian.net/browse/OQT-6?atlOrigin=eyJpIjoiYzZkOTc0YTMxZmZmNDFkZjliN2ZmYjIwODU1YmZjODMiLCJwIjoiaiJ9)
+
+### Steps to Reproduce:
+1. Navigate to the "Register a Patient" form  
+2. Enter the following in the respective fields:  
+   - Address 2: "Flat #A2" 
+   - City: "New-York@123"  
+   - State: "CA#1"  
+   - Country: "U$A"  
+   - Postal Code: "T3A@7Z8"  
+3. Click the green forward arrow to proceed
+
+### Expected:
+Fields should accept all formats in address 2 section and not in other fields like city, state and postal code.
+
+### Actual:
+Field accepts all the formats and User is able to proceed  with the registration process without any error message showing up.
+
+### Notes:
+Generally the City, State and Postal code field should not accept special characters as input.
 
 
