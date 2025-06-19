@@ -41,5 +41,14 @@
 - Names can be retrieved by entering only the numbers or alphabets as well. For example: entering **hvl** returns **john diaz** as a result.
 - User can change the name after it is created by clicking on edit button in the patient details summary page.
 
+### Conditions
+-Clicking on a patient’s name redirects the user to a new page displaying multiple editable sections such as Conditions, Attachments, Allergies, and Appointments.
+- The Edit button beside the Conditions section opens a new page showing patient details entered during registration. However, the Patient ID is non-editable.
+- A yellow clickable box is available on this page, allowing the user to add notes about the patient.
+- **ACTIVE** and **INACTIVE** are the two conditions available with the option of adding a new condition in each case.
+- While adding a new condition, typing a partial word shows relevant options from the dropdown list.
+- If the desired condition is not listed in the dropdown, users can manually enter it using inverted commas (e.g., "RareCondition").
+-  The **Onset Date** can not be a future date. It is already set to the current date.
+-  For **INACTIVE** conditions, an additional End Date field appears, which also must not be in the future.
   
   
