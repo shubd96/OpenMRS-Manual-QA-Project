@@ -7,8 +7,6 @@
 - Attachments
 - Allergies
 - Capture Vitals
-- Visit Note
-- Admit to inpatient
 - Add Past Visit
 - Merge visits
 - Schedule Appointment
